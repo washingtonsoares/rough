@@ -6,8 +6,10 @@
   "repository": "git@github.com:washingtonsoares/rough-english.git",
   "author": "Washington Soares <washingtonudi@gmail.com>",
   "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lerna": "^4.0.0"
-  },
-  "workspaces": ["packages/*"]
+  }
 }
