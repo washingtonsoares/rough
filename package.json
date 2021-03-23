@@ -6,6 +6,11 @@
   "repository": "git@github.com:washingtonsoares/rough-english.git",
   "author": "Washington Soares <washingtonudi@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "lerna run start --scope=@rough/demo --stream",
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build --scope=@rough/demo --stream"
+  },
   "workspaces": [
     "packages/*"
   ],

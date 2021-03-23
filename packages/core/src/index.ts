@@ -1,5 +1,5 @@
 const sayHello = () => {
-  console.log("hello");
+  console.log("omg!");
 };
 
 export default {

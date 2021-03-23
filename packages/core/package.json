@@ -2,7 +2,8 @@
   "private": true,
   "name": "@rough/core",
   "version": "1.0.0",
-  "main": "./src/index.js",
+  "main": "dist/index",
+  "types": "dist/index",
   "license": "MIT",
   "dependencies": {
     "typescript": "^4.2.3"
